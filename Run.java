@@ -34,10 +34,11 @@ public class Run extends Application{
 		});
 		
 		//button seton action for pane2
-		pane2.back.setOnAction(e -> {
+		pane2.back.setOnAction(e -> { 
 			stage.setScene(scene1); 
 		});
 		pane2.next.setOnAction(e -> {
+			pane2.populateVariables();
 			stage.setScene(scene3);
 		});
 		
