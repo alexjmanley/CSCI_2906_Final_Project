@@ -10,8 +10,7 @@ public class Run extends Application{
 	Pane3 pane3 = new Pane3(); 
 	ExercisePane exercisePane = new ExercisePane(); 
 	NutritionPane nutritionPane = new NutritionPane(); 
-	RestPane restPane = new RestPane(); 
-	Login loginPane = new Login(); 
+	RestPane restPane = new RestPane();  
 	private Stage stage; 
 	
 	@Override
