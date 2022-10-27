@@ -25,10 +25,11 @@ public class RestPane extends Pane{
 
 	}
 	public void buildPane() {
+	Object startDate2 = startDate1.clone(); 
 		SimpleDateFormat format = new SimpleDateFormat("MM/dd/yy");
-		Label startDate = new Label("Start Date: " + format.format(startDate1));
-		startDate1.setDate(weeksToGoal * 7); 
-		Label endDate = new Label("End Date: " + format.format(startDate1));
+		Label startDate = new Label("Start Date: " + format.format(startDate2));
+		((Date) startDate2).setDate(weeksToGoal * 7); 
+		Label endDate = new Label("End Date: " + format.format(startDate2));
 		
 		back.setPrefHeight(50);
 		back.setPrefWidth(100);
