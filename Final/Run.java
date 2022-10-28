@@ -61,7 +61,7 @@ public class Run extends Application{
 			stage.setScene(scene6);
 		});
 		pane3.logout.setOnAction(e -> {
-			stage.setScene(scene1);
+			stage.setScene(scene2);
 		});
 		
 		//back buttons for nutrition exercise rest panes
