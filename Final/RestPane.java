@@ -32,8 +32,6 @@ public class RestPane extends Pane{
 		((Date) startDate2).setDate(weeksToGoal * 7); 
 		Label endDate = new Label("End Date: " + format.format(startDate2));
 		
-		System.out.println(format.format(startDate1));
-		
 		back.setPrefHeight(50);
 		back.setPrefWidth(100);
 		back.setLayoutX(35);
