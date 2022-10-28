@@ -45,6 +45,8 @@ public class Run extends Application{
 			nutritionPane.buildPane();
 			restPane.buildPane();
 			
+			pane2.weeksToGoal = 0;
+			
 			stage.setScene(scene3);
 		});
 		
