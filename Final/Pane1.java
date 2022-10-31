@@ -20,7 +20,7 @@ public class Pane1 extends Pane{
 		label.setLayoutY(50);
 		label.setTextFill(Color.WHITE);
 		
-		newUser = new Button("New User");
+		newUser = new Button("Start");
 		newUser.setPrefHeight(100);
 		newUser.setPrefWidth(200);
 		newUser.setLayoutX(260);
