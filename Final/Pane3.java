@@ -11,7 +11,7 @@ public class Pane3 extends Pane{
 	Button nutrition = new Button("Nutrition");
 	Button rest = new Button("Rest");
 	Button logout = new Button("Reset");
-	Button ExerciseList = new Button("Video");
+	Button ExerciseList = new Button("Help");
 	
 	Pane3(){
 		exercise.setPrefHeight(100);
