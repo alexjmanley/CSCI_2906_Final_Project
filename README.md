@@ -15,3 +15,4 @@ for(int i = 0; i < imageView.length; i++) {
 			gp.add(label[i], 1, i);
 		}
 ```
+## If you would like to contribute to this project messsage me on GitHub
